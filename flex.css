@@ -407,6 +407,7 @@ projects {
 /* General card styles */
 .card {
      /* Semi-transparent white background */
+     
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: 1rem;
@@ -439,6 +440,9 @@ projects {
 
 /* Projects Section styles */
 #projects {
+    background: url('im2.jp') no-repeat center center fixed;
+    background-color: rgba(224, 224, 224, 0.9); 
+    background-size: cover;
     background-color: #f5f5f5;
     padding: 3rem 1.5rem;
     text-align: center;
